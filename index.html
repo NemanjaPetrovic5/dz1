@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <script src="js/lightbox.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>    
+        <div class="head">
+        <div class="prvi-deo">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png"alt="logo" width="200px"></a>
+            </div>
+            <div class="moto">
+                <span>Racunarske komponente</span>
+            </div>
+            <div class="korpa">
+                <div class="logo-korpa">
+                    <img src="images/korpa.png" alt="korpa">
+                </div>
+                <div class="korpa-broj">
+                    <p>Korpa(0) </p>
+                </div>
+            </div>
+        </div>
+           <nav>
+            <div id="hamb">
+                <img src="images/menu.png" width="45px">
+            </div>
+            <div class="meni">
+                <ul>
+                    <li><a href="#head">Pocetna</a></li>
+                    <li><a href="#proizvodi">Proizvodi</a></li>
+                    <li><a href="#vesti">Vesti</a></li>
+                    <li><a href="o_nama.html">O nama</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li> 
+                </ul>
+                </div>
+            </nav>
+            </div>
+    </header>
+
+    <main>
+        <div class="okvir">
+            <div id="proizvodi">  
+                <h2>Proizvodi:</h2>
+                    <div id="pr">
+                        <div class="proizvod">
+                            <img src="images/kk.jpg" alt="Kuciste Falcon ALASTOR 550W">
+                            <h3>Kuciste Falcon ALASTOR Black</h3>
+                            <hr>
+                            <p>Cena: <b>2.990 RSD</b></p>
+                            <p>Količina: <input type="number" name="kolicina" min="1" value="1"></p>
+                            <button class="btn">Dodaj u korpu</button>
+                        </div>
+                        <div class="proizvod">
+                            <img src="images/falcon.jpg" alt="Kućište Falcon SENTINEL RGB">
+                            <h3>Kućište Falcon SENTINEL RGB</h3>
+                            <hr>
+                            <p>Cena: <b>4.890 RSD</b></p>
+                            <p>Količina: <input type="number" name="kolicina" min="1" value="1"></p>
+                            <button class="btn">Dodaj u korpu</button>
+                        </div>
+                        <div class="proizvod">
+                            <img src="images/fokus.jpg" alt="Kućište Fractal FOKUS G RED">
+                            <h3>Kućište Fractal FOKUS G RED</h3>
+                            <hr>
+                            <p>Cena: <b>9.433 RSD</b></p>
+                            <p>Količina: <input type="number" name="kolicina" min="1" value="1"></p>
+                            <button class="btn">Dodaj u korpu</button>
+                        </div>
+                        <div class="proizvod">
+                            <img src="images/154804_5f3e3171ea2f4.jpg" alt="Kućište Fractal FOCUS G BLUE">
+                            <h3>Kućište Fractal FOCUS G BLUE</h3>
+                            <hr>
+                            <p>Cena: <b>8.878 RSD</b></p>
+                            <p>Količina: <input type="number" name="kolicina" min="1" value="1"></p>
+                            <button class="btn">Dodaj u korpu</button>
+                        </div> 
+                        <div class="proizvod">
+                            <img src="images/8632891.jpg" alt="Kuciste MS Industrial AQUARIUS PRO">
+                            <h3>Kuciste MS Industrial AQUARIUS PRO</h3>
+                            <hr>
+                            <p>Cena: <b>4.990 RSD</b></p>
+                            <p>Količina: <input type="number" name="kolicina" min="1" value="1"></p>
+                            <button class="btn">Dodaj u korpu</button>
+                        </div>
+                        <div class="proizvod">
+                            <img src="images/8638047.jpg" alt="Kućište Raidmax GHOST Black">
+                            <h3>Kućište Raidmax GHOST Black</h3>
+                            <hr>
+                            <p>Cena: <b>3.990 RSD</b></p>
+                            <p>Količina: <input type="number" name="kolicina" min="1" value="1"></p>
+                            <button class="btn">Dodaj u korpu</button>
+                        </div>
+                        <div class="proizvod">
+                            <img src="images/4764438.jpg" alt="Kućište Raidmax Vortex V4 Blue">
+                            <h3>Kućište Raidmax Vortex V4 Blue</h3>
+                            <hr>
+                            <p>Cena: <b>3.490 RSD</b></p>
+                            <p>Količina: <input type="number" name="kolicina" min="1" value="1"></p>
+                            <button class="btn">Dodaj u korpu</button>
+                        </div>
+                        <div class="proizvod">
+                            <img src="images/8638049.jpg" alt="Kuciste Raidmax Neon LED">
+                            <h3>Kuciste Raidmax Neon LED.</h3>
+                            <hr>
+                            <p>Cena: <b>3.990 RSD</b></p>
+                            <p>Količina: <input type="number" name="kolicina" min="1" value="1"></p>
+                            <button class="btn">Dodaj u korpu</button>
+                        </div> 
+                        </div>
+                    </div>
+                </div>
+        <div class="okvir">
+            <div id="registracija">
+                <form action="#" method="post">
+                    <h3 class="reg"> Registruj se</h3>
+                    <hr> 
+                    <input type="text" name="ime" placeholder="Ime" required>
+                    <br>
+                    <input type="text" name="prezime" placeholder="Prezime" required>
+                    <br>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <br>
+                    <input type="password" name="password" placeholder="Lozinka" required>
+                    <br>
+                    <input type="tel" name="telefon" placeholder="Telefon" pattern="06[0-9]{8}" required>
+                    <br>
+                    <select name="Pol">
+                        <option disabled selected>Pol</option>
+                        <option>Muški</option>
+                        <option>Ženski</option>
+                    </select>
+                    <br>
+                    <label>
+                        <input type="checkbox" name="uslov" required> <span>Prihvatam sve uslove korišćenja</span>
+                    </label>
+                    <br>
+                    <input type="submit" class="btn" value="Registracija">
+                </form>  
+            </div>
+        </div>
+    <div class="okvir">
+        <div class="v">
+            <div id="vesti">
+                <h2>Vesti:</h2>            
+                    <div class="ve">
+                        <div class="sl">
+                            <img src="images/racu.jpg" alt="vesti">
+                        </div>
+                        <div class="tekst">
+                            <h3>Google je odabrao AMD EPYC za svoje najnovije 'Poverljive Virtuelne Mašine'</h3>
+                            <p>Google-ove Poverljive Virtuelne Mašine pokreće druga generacija AMD EPYC procesora</p>
+                        </div>
+                        </div>
+                        <div class="ve">
+                        <div class="sl">
+                            <img src="images/adaa.jpg" alt="vesti">
+                        </div>
+                        <div class="tekst">
+                            <h3>AMD EPYC procesori pokreću sve više superkompjutera</h3>
+                            <p>Kompanija AMD je objavila da na najnovijoj TOP 500 listi najmoćnijih superkompjutera na planeti, četiri instalacije u TOP 50 pokreću EPYC procesori druge generacije</p>
+                        </div>
+                        </div>
+                            <div class="ve">
+                                <div class="sl">
+                            <img src="images/ads.jpg" alt="vesti">
+                        </div>
+                        <div class="tekst">
+                            <h3>Najmanji Lenovo ThinkCentre desktop obezbeđuje moć naprednih mikro uređaja</h3>
+                            <p>Kompanija Lenovo je najavila najnovije ThinkCentre ultra-male “Nano” form factor desktopove</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="images/logo-white.png" alt="logo"><br>
+        <p>Nemanja Petrovic S24/2019</p>
+        <p>npetrovic2419s@raf.rs</p>
+        <p>065-6083574</p>
+    </footer>     
+    </body>
+</html>
